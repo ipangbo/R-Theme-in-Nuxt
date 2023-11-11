@@ -38,7 +38,7 @@
 
 <script setup lang="ts">
 import { usePostsStore } from '~/stores/posts';
-import { Category } from '~/types/CategoryTypes';
+import { type Category } from '~/types/CategoryTypes';
 
 const postsStore = usePostsStore();
 await postsStore.getHomePageNewestSlides();

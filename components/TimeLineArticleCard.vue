@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { TimeLineCardDetails } from '~/types/PostTypes';
+import { type TimeLineCardDetails } from '~/types/PostTypes';
 const props = defineProps<{
     card: TimeLineCardDetails;
 }>();

@@ -72,7 +72,7 @@
 </template>
 
 <script setup lang="ts">
-import { MusicBoxItem } from '~/types/PostTypes'
+import { type MusicBoxItem } from '~/types/PostTypes'
 const playList = useRuntimeConfig().public.musicBoxPlayList as MusicBoxItem[];
 const currentPlaying: Ref<MusicBoxItem | undefined> = ref();
 const currentTimes = ref<number[]>(Array(playList.length).fill(0));

@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import {type TimeLineCardDetails } from '~/types/PostTypes'
+import { type TimeLineCardDetails } from '~/types/PostTypes'
 import { listPostsByCategory } from "~/utils/http/posts";
 
 export const useCategoriesStore = defineStore('categories', () => {

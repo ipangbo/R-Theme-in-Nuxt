@@ -70,7 +70,7 @@
 <script setup lang="ts">
 import PostsCarousel from '~/components/PostsCarousel.vue';
 import { usePostsStore } from '~/stores/posts';
-import { Slide } from '~/types/PostTypes';
+import { type Slide } from '~/types/PostTypes';
 
 const route = useRoute();
 const postsStore = usePostsStore();

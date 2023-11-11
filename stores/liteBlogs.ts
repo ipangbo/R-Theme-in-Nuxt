@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import {type LiteBlog } from "~/types/LightBlogTypes";
+import { type LiteBlog } from "~/types/LightBlogTypes";
 import { listLiteBlogs } from "~/utils/http/liteBlogs";
 
 export const useLiteBlogsStore = defineStore('liteBlogs', () => {

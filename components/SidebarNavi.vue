@@ -26,7 +26,7 @@
 </template>
 
 <script setup lang="ts">
-import { NaviItem } from '~/types/PostTypes'
+import { type NaviItem } from '~/types/PostTypes'
 
 const naviItems = useRuntimeConfig().public.sideNavigation as NaviItem[];
 </script>

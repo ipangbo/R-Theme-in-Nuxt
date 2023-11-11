@@ -67,8 +67,8 @@
 <script setup lang="ts">
 import { useCurrentArticleStore } from '~/stores/currentArticle';
 import { useCategoriesStore } from '~/stores/categories';
-import { Category } from '~/types/CategoryTypes';
-import { TimeLineCardDetails } from '~/types/PostTypes';
+import { type Category } from '~/types/CategoryTypes';
+import { type TimeLineCardDetails } from '~/types/PostTypes';
 
 const route = useRoute();
 const selectedCategories = useRuntimeConfig().public.categoriesOnIndexPage as Category[];
