@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { PostsByCategories, Slide, PostWithCategories, PostDetails, TimeLineCardDetails } from "~/types/PostTypes";
+import {type PostsByCategories, type Slide, type PostWithCategories, type PostDetails, type TimeLineCardDetails } from "~/types/PostTypes";
 import {
     getPostDetailsRawById,
     getTimeLineContentByPage,
@@ -9,7 +9,7 @@ import {
     getPostsCountRaw,
     listSearchResult
 } from "@/utils/http/posts";
-import { Category } from "~/types/CategoryTypes";
+import {type Category } from "~/types/CategoryTypes";
 
 export const usePostsStore = defineStore("posts", () => {
     const newestPages = ref<Slide[]>([]);

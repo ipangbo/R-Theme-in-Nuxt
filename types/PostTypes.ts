@@ -8,15 +8,6 @@ export interface Slide {
     date: string;
 }
 
-export interface PostsListItem {
-    id: number;
-    link: string;
-    title: string;
-    featuredmedia: string;
-    category?: string[];
-    date: string;
-}
-
 export interface NaviItem {
     name: string;
     link: string;

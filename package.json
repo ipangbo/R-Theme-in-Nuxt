@@ -9,12 +9,15 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@element-plus/nuxt": "^1.0.4",
+    "@element-plus/nuxt": "^1.0.6",
     "nuxt": "^3.3.3"
   },
   "dependencies": {
     "@pinia/nuxt": "^0.4.7",
     "@types/node": "^18.15.11",
     "pinia": "^2.0.33"
+  },
+  "overrides": {
+    "vue": "latest"
   }
 }

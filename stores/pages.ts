@@ -1,5 +1,5 @@
 import { defineStore } from "pinia";
-import { PageDetails } from "~/types/PagesTypes";
+import {type PageDetails } from "~/types/PagesTypes";
 import { getPageDetailsRawBySlug } from "~/utils/http/pages";
 
 export const usePagesStore = defineStore('pages', () => {

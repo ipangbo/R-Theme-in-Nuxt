@@ -1,4 +1,4 @@
-import { PageDetails } from "~/types/PagesTypes";
+import {type PageDetails } from "~/types/PagesTypes";
 
 export const getPageDetailsRawBySlug = async (slug: string): Promise<any> => {
     const { data: postData } = await useAPIFetch(`/pages?slug=${slug}&_embed`, {

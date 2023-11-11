@@ -23,7 +23,7 @@
 </template>
 
 <script setup lang="ts">
-import { PostsListItem } from '~/types/PostTypes';
+import { type PostsListItem } from '~/types';
 
 const props = defineProps<{
     title: string | number;

@@ -1,4 +1,4 @@
-import { PostDetails } from "~/types/PostTypes";
+import {type PostDetails } from "~/types/PostTypes";
 
 export const listNewestPosts = async (): Promise<any[]> => {
     // Since the carousel (custom) and the Newest part (6) will display the newest posts simutaneously,
